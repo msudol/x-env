@@ -1,6 +1,6 @@
 {
-  "name": "cross-env",
-  "version": "0.0.0-semantically-released",
+  "name": "x-env",
+  "version": "0.0.1",
   "description": "Run scripts that set and use environment variables across platforms",
   "main": "src/index.js",
   "bin": {
@@ -8,8 +8,8 @@
     "cross-env-shell": "src/bin/cross-env-shell.js"
   },
   "engines": {
-    "node": ">=10.14",
-    "npm": ">=6",
+    "node": ">=18",
+    "npm": ">=10",
     "yarn": ">=1"
   },
   "scripts": {
@@ -31,10 +31,10 @@
   "author": "Kent C. Dodds <me@kentcdodds.com> (https://kentcdodds.com)",
   "license": "MIT",
   "dependencies": {
-    "cross-spawn": "^7.0.1"
+    "cross-spawn": "^7.0.6"
   },
   "devDependencies": {
-    "kcd-scripts": "^5.5.0"
+    "kcd-scripts": "^16.0.0"
   },
   "eslintConfig": {
     "extends": "./node_modules/kcd-scripts/eslint.js"
@@ -45,10 +45,6 @@
   "babel": {},
   "repository": {
     "type": "git",
-    "url": "https://github.com/kentcdodds/cross-env.git"
-  },
-  "bugs": {
-    "url": "https://github.com/kentcdodds/cross-env/issues"
-  },
-  "homepage": "https://github.com/kentcdodds/cross-env#readme"
+    "url": "https://github.com/msudol/x-env.git"
+  }
 }

@@ -8,7 +8,6 @@ const env = {
   test1: 'b',
   test2: 'c',
   test3: 'd',
-  // eslint-disable-next-line babel/camelcase
   empty_var: '',
 }
 

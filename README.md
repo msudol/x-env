@@ -5,8 +5,8 @@
 </div>
 
 **🚨 NOTICE: cross-env still works well, but is in maintenance mode. No new
-features will be added, only serious and common-case bugs will be fixed, and
-it will only be kept up-to-date with Node.js over time.
+features will be added, only serious and common-case bugs will be fixed, and it
+will only be kept up-to-date with Node.js over time.
 [Learn more](https://github.com/kentcdodds/cross-env/issues/257)**
 
 ---
@@ -46,7 +46,9 @@ of setting it properly.
 - [Windows Issues](#windows-issues)
 - [Inspiration](#inspiration)
 - [Other Solutions](#other-solutions)
-- [Contributors](#contributors)
+- [Issues](#issues)
+  - [🐛 Bugs](#-bugs)
+  - [💡 Feature Requests](#-feature-requests)
 - [LICENSE](#license)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -63,8 +65,8 @@ npm install --save-dev cross-env
 > WARNING! Make sure that when you're installing packages that you spell things
 > correctly to avoid [mistakenly installing malware][malware]
 
-> NOTE : Version 7 of cross-env only supports Node.js 10 and higher, to use it on
-> Node.js 8 or lower install version 6 `npm install --save-dev cross-env@6`
+> NOTE : Version 7 of cross-env only supports Node.js 10 and higher, to use it
+> on Node.js 8 or lower install version 6 `npm install --save-dev cross-env@6`
 
 ## Usage
 
@@ -199,62 +201,10 @@ Please file an issue for bugs, missing documentation, or unexpected behavior.
 
 ### 💡 Feature Requests
 
-This project is in maintenance mode and no new feature requests will be considered.
+This project is in maintenance mode and no new feature requests will be
+considered.
 
 [**Learn more**](https://github.com/kentcdodds/cross-env/issues/257)
-
-## Contributors ✨
-
-Thanks goes to these people ([emoji key][emojis]):
-
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
-<table>
-  <tr>
-    <td align="center"><a href="https://kentcdodds.com"><img src="https://avatars.githubusercontent.com/u/1500684?v=3" width="100px;" alt=""/><br /><sub><b>Kent C. Dodds</b></sub></a><br /><a href="https://github.com/kentcdodds/cross-env/commits?author=kentcdodds" title="Code">💻</a> <a href="https://github.com/kentcdodds/cross-env/commits?author=kentcdodds" title="Documentation">📖</a> <a href="#infra-kentcdodds" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="https://github.com/kentcdodds/cross-env/commits?author=kentcdodds" title="Tests">⚠️</a></td>
-    <td align="center"><a href="https://zhuangya.me"><img src="https://avatars1.githubusercontent.com/u/499038?v=3" width="100px;" alt=""/><br /><sub><b>Ya Zhuang </b></sub></a><br /><a href="#plugin-zhuangya" title="Plugin/utility libraries">🔌</a> <a href="https://github.com/kentcdodds/cross-env/commits?author=zhuangya" title="Documentation">📖</a></td>
-    <td align="center"><a href="https://wopian.me"><img src="https://avatars3.githubusercontent.com/u/3440094?v=3" width="100px;" alt=""/><br /><sub><b>James Harris</b></sub></a><br /><a href="https://github.com/kentcdodds/cross-env/commits?author=wopian" title="Documentation">📖</a></td>
-    <td align="center"><a href="https://github.com/compumike08"><img src="https://avatars1.githubusercontent.com/u/8941730?v=3" width="100px;" alt=""/><br /><sub><b>compumike08</b></sub></a><br /><a href="https://github.com/kentcdodds/cross-env/issues?q=author%3Acompumike08" title="Bug reports">🐛</a> <a href="https://github.com/kentcdodds/cross-env/commits?author=compumike08" title="Documentation">📖</a> <a href="https://github.com/kentcdodds/cross-env/commits?author=compumike08" title="Tests">⚠️</a></td>
-    <td align="center"><a href="https://github.com/danielo515"><img src="https://avatars1.githubusercontent.com/u/2270425?v=3" width="100px;" alt=""/><br /><sub><b>Daniel Rodríguez Rivero</b></sub></a><br /><a href="https://github.com/kentcdodds/cross-env/issues?q=author%3Adanielo515" title="Bug reports">🐛</a> <a href="https://github.com/kentcdodds/cross-env/commits?author=danielo515" title="Code">💻</a> <a href="https://github.com/kentcdodds/cross-env/commits?author=danielo515" title="Documentation">📖</a></td>
-    <td align="center"><a href="https://github.com/inyono"><img src="https://avatars2.githubusercontent.com/u/1508477?v=3" width="100px;" alt=""/><br /><sub><b>Jonas Keinholz</b></sub></a><br /><a href="https://github.com/kentcdodds/cross-env/issues?q=author%3Ainyono" title="Bug reports">🐛</a> <a href="https://github.com/kentcdodds/cross-env/commits?author=inyono" title="Code">💻</a> <a href="https://github.com/kentcdodds/cross-env/commits?author=inyono" title="Tests">⚠️</a></td>
-    <td align="center"><a href="https://github.com/hgwood"><img src="https://avatars3.githubusercontent.com/u/1656170?v=3" width="100px;" alt=""/><br /><sub><b>Hugo Wood</b></sub></a><br /><a href="https://github.com/kentcdodds/cross-env/issues?q=author%3Ahgwood" title="Bug reports">🐛</a> <a href="https://github.com/kentcdodds/cross-env/commits?author=hgwood" title="Code">💻</a> <a href="https://github.com/kentcdodds/cross-env/commits?author=hgwood" title="Tests">⚠️</a></td>
-  </tr>
-  <tr>
-    <td align="center"><a href="https://github.com/thomasthiebaud"><img src="https://avatars0.githubusercontent.com/u/3715715?v=3" width="100px;" alt=""/><br /><sub><b>Thiebaud Thomas</b></sub></a><br /><a href="https://github.com/kentcdodds/cross-env/issues?q=author%3Athomasthiebaud" title="Bug reports">🐛</a> <a href="https://github.com/kentcdodds/cross-env/commits?author=thomasthiebaud" title="Code">💻</a> <a href="https://github.com/kentcdodds/cross-env/commits?author=thomasthiebaud" title="Tests">⚠️</a></td>
-    <td align="center"><a href="https://daniel.blog"><img src="https://avatars1.githubusercontent.com/u/1715800?v=3" width="100px;" alt=""/><br /><sub><b>Daniel Rey López</b></sub></a><br /><a href="https://github.com/kentcdodds/cross-env/commits?author=DanReyLop" title="Code">💻</a> <a href="https://github.com/kentcdodds/cross-env/commits?author=DanReyLop" title="Tests">⚠️</a></td>
-    <td align="center"><a href="http://amilajack.com"><img src="https://avatars2.githubusercontent.com/u/6374832?v=3" width="100px;" alt=""/><br /><sub><b>Amila Welihinda</b></sub></a><br /><a href="#infra-amilajack" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a></td>
-    <td align="center"><a href="https://twitter.com/paulcbetts"><img src="https://avatars1.githubusercontent.com/u/1396?v=3" width="100px;" alt=""/><br /><sub><b>Paul Betts</b></sub></a><br /><a href="https://github.com/kentcdodds/cross-env/issues?q=author%3Apaulcbetts" title="Bug reports">🐛</a> <a href="https://github.com/kentcdodds/cross-env/commits?author=paulcbetts" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/turnerhayes"><img src="https://avatars1.githubusercontent.com/u/6371670?v=3" width="100px;" alt=""/><br /><sub><b>Turner Hayes</b></sub></a><br /><a href="https://github.com/kentcdodds/cross-env/issues?q=author%3Aturnerhayes" title="Bug reports">🐛</a> <a href="https://github.com/kentcdodds/cross-env/commits?author=turnerhayes" title="Code">💻</a> <a href="https://github.com/kentcdodds/cross-env/commits?author=turnerhayes" title="Tests">⚠️</a></td>
-    <td align="center"><a href="https://github.com/sudo-suhas"><img src="https://avatars2.githubusercontent.com/u/22251956?v=4" width="100px;" alt=""/><br /><sub><b>Suhas Karanth</b></sub></a><br /><a href="https://github.com/kentcdodds/cross-env/commits?author=sudo-suhas" title="Code">💻</a> <a href="https://github.com/kentcdodds/cross-env/commits?author=sudo-suhas" title="Tests">⚠️</a></td>
-    <td align="center"><a href="https://github.com/sventschui"><img src="https://avatars3.githubusercontent.com/u/512692?v=4" width="100px;" alt=""/><br /><sub><b>Sven</b></sub></a><br /><a href="https://github.com/kentcdodds/cross-env/commits?author=sventschui" title="Code">💻</a> <a href="https://github.com/kentcdodds/cross-env/commits?author=sventschui" title="Documentation">📖</a> <a href="#example-sventschui" title="Examples">💡</a> <a href="https://github.com/kentcdodds/cross-env/commits?author=sventschui" title="Tests">⚠️</a></td>
-  </tr>
-  <tr>
-    <td align="center"><a href="https://github.com/NicoZelaya"><img src="https://avatars0.githubusercontent.com/u/5522668?v=4" width="100px;" alt=""/><br /><sub><b>D. Nicolás Lopez Zelaya</b></sub></a><br /><a href="https://github.com/kentcdodds/cross-env/commits?author=NicoZelaya" title="Code">💻</a></td>
-    <td align="center"><a href="http://bithavoc.io"><img src="https://avatars3.githubusercontent.com/u/219289?v=4" width="100px;" alt=""/><br /><sub><b>Johan Hernandez</b></sub></a><br /><a href="https://github.com/kentcdodds/cross-env/commits?author=bithavoc" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/jnielson94"><img src="https://avatars3.githubusercontent.com/u/13559161?v=4" width="100px;" alt=""/><br /><sub><b>Jordan Nielson</b></sub></a><br /><a href="https://github.com/kentcdodds/cross-env/issues?q=author%3Ajnielson94" title="Bug reports">🐛</a> <a href="https://github.com/kentcdodds/cross-env/commits?author=jnielson94" title="Code">💻</a> <a href="https://github.com/kentcdodds/cross-env/commits?author=jnielson94" title="Tests">⚠️</a></td>
-    <td align="center"><a href="https://nz.linkedin.com/in/jsonc11"><img src="https://avatars0.githubusercontent.com/u/5185660?v=4" width="100px;" alt=""/><br /><sub><b>Jason Cooke</b></sub></a><br /><a href="https://github.com/kentcdodds/cross-env/commits?author=Jason-Cooke" title="Documentation">📖</a></td>
-    <td align="center"><a href="https://github.com/bibo5088"><img src="https://avatars0.githubusercontent.com/u/17709887?v=4" width="100px;" alt=""/><br /><sub><b>bibo5088</b></sub></a><br /><a href="https://github.com/kentcdodds/cross-env/commits?author=bibo5088" title="Code">💻</a></td>
-    <td align="center"><a href="https://codefund.io"><img src="https://avatars2.githubusercontent.com/u/12481?v=4" width="100px;" alt=""/><br /><sub><b>Eric Berry</b></sub></a><br /><a href="#fundingFinding-coderberry" title="Funding Finding">🔍</a></td>
-    <td align="center"><a href="https://michaeldeboey.be"><img src="https://avatars3.githubusercontent.com/u/6643991?v=4" width="100px;" alt=""/><br /><sub><b>Michaël De Boey</b></sub></a><br /><a href="https://github.com/kentcdodds/cross-env/commits?author=MichaelDeBoey" title="Code">💻</a></td>
-  </tr>
-  <tr>
-    <td align="center"><a href="https://github.com/lauriii"><img src="https://avatars0.githubusercontent.com/u/1845495?v=4" width="100px;" alt=""/><br /><sub><b>Lauri Eskola</b></sub></a><br /><a href="https://github.com/kentcdodds/cross-env/commits?author=lauriii" title="Documentation">📖</a></td>
-    <td align="center"><a href="https://github.com/devuxer"><img src="https://avatars0.githubusercontent.com/u/1298521?v=4" width="100px;" alt=""/><br /><sub><b>devuxer</b></sub></a><br /><a href="https://github.com/kentcdodds/cross-env/commits?author=devuxer" title="Documentation">📖</a></td>
-    <td align="center"><a href="https://github.com/dsbert"><img src="https://avatars2.githubusercontent.com/u/1320090?v=4" width="100px;" alt=""/><br /><sub><b>Daniel</b></sub></a><br /><a href="https://github.com/kentcdodds/cross-env/commits?author=dsbert" title="Documentation">📖</a></td>
-  </tr>
-</table>
-
-<!-- markdownlint-enable -->
-<!-- prettier-ignore-end -->
-<!-- ALL-CONTRIBUTORS-LIST:END -->
-
-This project follows the [all-contributors][all-contributors] specification.
-Contributions of any kind welcome!
-
-> Note: this was added late into the project. If you've contributed to this
-> project in any way, please make a pull request to add yourself to the list by
-> following the instructions in the `CONTRIBUTING.md`
 
 ## LICENSE
 
@@ -278,8 +228,6 @@ MIT
 [coc-badge]: https://img.shields.io/badge/code%20of-conduct-ff69b4.svg?style=flat-square
 [coc]: https://github.com/kentcdodds/cross-env/blob/master/other/CODE_OF_CONDUCT.md
 [emojis]: https://allcontributors.org/docs/en/emoji-key
-[all-contributors]: https://github.com/all-contributors/all-contributors
-[all-contributors-badge]: https://img.shields.io/github/all-contributors/kentcdodds/cross-env?color=orange&style=flat-square
 [bugs]: https://github.com/kentcdodds/cross-env/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+label%3A%22%F0%9F%90%9B+Bug%22+sort%3Acreated-desc
 [good-first-issue]: https://github.com/kentcdodds/cross-env/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+sort%3Areactions-%2B1-desc+label%3A%22good+first+issue%22
 
